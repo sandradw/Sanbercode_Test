@@ -6,7 +6,7 @@ describe('Scenario Login', () => {
         cy.visit('https://opensource-demo.orangehrmlive.com/')
     });
 
-    it.only('TC_001 - Successful login with valid username & password', () => {
+    it('TC_001 - Successful login with valid username & password', () => {
         cy.xpath("//input[@placeholder='Username']").clear().type('Admin')
         cy.xpath("//input[@placeholder='Password']").clear().type('admin123')
         cy.xpath("//button[normalize-space()='Login']").should('be.visible').click()
