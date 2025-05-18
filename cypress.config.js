@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     defaultCommandTimeout: 30000, //dalam milisecond
+    
     baseUrl : "https://opensource-demo.orangehrmlive.com/"
   },
 });
