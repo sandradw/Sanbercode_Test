@@ -1,0 +1,11 @@
+{
+    "name" : "Peter",
+    "fullName" : "Peter Mac Anderson",
+    "invalidName" : "sandra",
+    "jobTitle": "Chief Financial Officer",
+    "location" : "New York Sales Office",
+    "validUsername" : "Admin",
+    "validPassword" : "admin123",
+    "job" : "Chief Financial Officer",
+    "jobNotFound" : "Account Assistant"
+}
